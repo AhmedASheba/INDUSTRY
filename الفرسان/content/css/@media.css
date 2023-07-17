@@ -1,0 +1,392 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+/* Start Header */
+/* End Header */
+
+/* Start Landing */
+.text h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.items-landing{
+    height: 120vh;
+}
+/* End Landing */
+
+
+/* Start section1 */
+.items-section1-h1::before,
+.items-section1-h1::after{
+    top: 16px;
+}
+.saids{
+    display: flex;
+    flex-direction: column;
+}
+/* End section1 */
+
+
+
+/* Start Section2 */
+.cards .card{
+    height: 214px;
+    width: 169px;
+}
+.section2-text-h1::after{
+    left:-100px;
+    top: 16px;
+}
+.section2-text-h1::before{
+    right: -100px;
+    top: 16px;
+}
+/* End Section2 */
+
+
+
+
+
+
+/* Start Section4 */
+.section4-row{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* End Section4 */
+
+
+
+/* Start section3 */
+.items-section3-text h1::after{
+    top: 16px;
+    left: 355px;
+}
+.items-section3-text ::before{
+    top: 16px;
+    right: 355px;
+}
+.section3-form-input1{
+    width: 223px;
+}
+/* End section3 */
+
+
+
+/* Start Footer */
+.footer-items{
+    padding: 8px ;
+}
+.footer-logo{
+    width: 130px;
+    margin-bottom: 50px;
+}
+.footer-blok1 a{
+    margin-top: 100px;
+}
+/* End Footer */
+
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) and (max-width: 767px) {
+    /* Start Header */
+    /* End Header */
+    
+    /* Start Landing */
+    .items-landing{
+        height: 130vh;
+    }
+    .text h1{
+        font-size: 70px;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+    /* End Landing */
+    
+    
+    /* Start section1 */
+    .items-section1-h1::before,
+    .items-section1-h1::after{
+        top: 16px;
+    }
+    .saids{
+        display: flex;
+        flex-direction: column;
+    }
+    /* End section1 */
+    
+    
+    
+    /* Start Section2 */
+    .cards .card{
+        height: 220px;
+        width: 169px;
+    }
+    .section2-text-h1::after{
+        left:-100px;
+        top: 16px;
+    }
+    .section2-text-h1::before{
+        right: -100px;
+        top: 16px;
+    }
+    /* End Section2 */
+    
+    
+    
+    
+    
+    
+    /* Start Section4 */
+    .section4-row{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    /* End Section4 */
+    
+    
+    
+    /* Start section3 */
+    .items-section3-text h1::after{
+        top: 19px;
+        left: 356px;
+    }
+    .items-section3-text ::before{
+        top: 19px;
+        right: 356px;
+    }
+    .section3-form-input1{
+        width: 220px;
+    }
+    /* End section3 */
+    
+    
+    
+    /* Start Footer */
+    .footer-items{
+        padding: 15px ;
+    }
+    .footer-logo{
+        width: 120px;
+        margin-bottom: 50px;
+    }
+    .footer-blok1 a{
+        margin-top: 100px;
+    }
+    /* End Footer */
+}
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 767px) and (max-width: 991px) {
+
+
+
+
+
+    .saids{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    /* Start Section2 */
+    .cards .card{
+        height: 220px;
+        width: 169px;
+    }
+    .section2-text-h1::after{
+        left:-100px;
+        top: 16px;
+    }
+    .section2-text-h1::before{
+        right: -100px;
+        top: 16px;
+    }
+    /* End Section2 */
+
+
+
+    /* Start Section4 */
+    .section4-row{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    /* End Section4 */
+
+
+
+    /* Start section3 */
+    .items-section3-text h1::after{
+        top: 22px;
+        left: 445px;
+    }
+    .items-section3-text ::before{
+        top: 22px;
+        right: 445px;
+    }
+    .section3-form-input1{
+        width: 288px;
+    }
+    /* End section3 */
+    
+    
+    
+    /* Start Footer */
+    .footer-items{
+        padding: 30px ;
+    }
+    .items-footer{
+        min-height: 22vh;
+    }
+    .footer-logo{
+        width: 150px;
+        margin-bottom: 50px;
+    }
+    .footer-blok1 a{
+        margin-top: 100px;
+    }
+    /* End Footer */
+}
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 991px) and (max-width: 1199px) {
+
+
+    /* Start Header */
+    .nav-logo{
+        margin-right: 200px;
+    }
+    /* End Header */
+    
+    
+    
+    
+    
+    /* Start Landing */
+    .items-landing{
+        height: 160vh;
+    }
+    /* End Landing */
+    
+    
+    /* Start Section1 */
+    .saids{
+        display: flex;
+        flex-direction: row;
+    }
+    .section1-img1{
+        width: 310px;
+        height: 310px;
+    }
+    .section1-img2{
+        width: 180px;
+        height: 180px;
+    }
+    .lift-saied::after{
+        height: 250px;
+    }
+    /* End Section1 */
+    
+    
+    
+    
+    .cards .card{
+        height: 209px;
+        width: 249px;
+    }
+    
+    
+    /* Start section3 */
+    .items-section3-text h1::after{
+        top: 22px;
+        left: 560px;
+    }
+    .items-section3-text h1::before{
+        top: 22px;
+        right: 560px;
+    }
+    .section3-form-input1{
+        width: 372px;
+    }
+    /* End section3 */
+
+
+
+
+        /* Start Footer */
+        .footer-items{
+            padding: 20px ;
+        }
+
+        /* End Footer */
+    }
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media   (min-width: 1200px)and (max-width: 1250px) {
+
+    /* Start Section1 */
+    .saids{
+        display: flex;
+        flex-direction: row;
+    }
+    /* End Section1 */
+    
+    
+    
+    /* Start Section2 */
+    .cards .card{
+        height: 330px;
+        width: 320px;
+    }
+    .section2-text-h1::after{
+        left:-100px;
+        top: 26px;
+    }
+    .section2-text-h1::before{
+        right: -100px;
+        top: 26px;
+    }
+    /* End Section2 */
+    
+    
+    /* Start Section4 */
+    .section4-row{
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+        padding: 10px;
+    }
+    /* End Section4 */
+    
+    
+    
+    /* Start section3 */
+    .items-section3-text h1::after{
+        top: 22px;
+        left: 670px;
+    }
+    .items-section3-text h1::before{
+        top: 22px;
+        right: 670px;
+    }
+    .section3-form-input1{
+        width: 455px;
+    }
+    /* End section3 */
+    }
